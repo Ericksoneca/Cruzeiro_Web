@@ -1,0 +1,200 @@
+
+.nav-item{
+    color: #fff;
+}
+
+.navbar-nav .nav-link{
+        color: #0e0d0d;
+        font-size: 20px;
+    }
+
+.nav-link {
+    text-align: center;
+}
+body{
+    background-color: #70adeb;
+}
+
+#btncar{
+    font-size: 20px;
+}
+
+#ut{
+    display: flex;
+    justify-content: center;
+    border: #000;
+    margin-bottom: 20px;
+}
+section {
+    background-color: #fcf9f9;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: block;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    max-width: 1980px;
+    background-color: #f8f4f4;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+#logo {
+    display: block;
+    width: 150px;
+    border-radius: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+
+}
+#carri{
+    display: flex;
+    align-items: end;
+    width: 30px;
+    height: 20px;
+}
+#msg{
+    display: flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-size: 30px;
+}
+#lol{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carousel-item img {
+    z-index: 0;
+}
+
+#inicio {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sabores {
+display: grid;
+grid-template-columns: repeat(3, 33.6%);
+column-gap: 1%;
+row-gap: 3%;
+margin-bottom: 10px;
+}
+
+#cru{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+.footer {
+    background-color: var(--btWhiteGround);
+    font-weight: 100px;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+.footer .rede-sociais a {
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    color: #4b4c4d;
+}
+#formsearch{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer .rede-sociais {
+    text-align: center;
+    padding-top: 25px;
+    color: #0a4b8b;
+}
+
+ul li {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.info-footer {
+    width: 100%;
+    height: 2.9375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.info-footer2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+    .html{
+        max-width: 767px;
+    }   
+    .sabores{
+        display: grid;
+        grid-template-columns: 49% 49%;
+    }
+
+    .sabor2,.sabor3{
+        display: none;
+    }
+    
+    .div{
+        grid-template-columns: 49% 49%;
+
+    }
+}
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+        max-width: 90%;
+    }
+    .sabores{
+        display: grid;
+        grid-template-columns: 49% 49%;
+    }
+
+    .sabor3{
+        display: none;
+    }
+    #redesSociais img {
+        width: 60px;
+    }
+}
